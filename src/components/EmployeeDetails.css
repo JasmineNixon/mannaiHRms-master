@@ -1,0 +1,194 @@
+@font-face {
+  font-family: 'Frutiger Neue';
+  src: url('../assets/fonts/FrutigerNeueLTW1G-Regular.woff2') format('woff2'),
+       url('../assets/fonts/FrutigerNeueLTW1G-Regular.woff') format('woff'),
+       url('../assets/fonts/FrutigerNeueLTW1G-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Frutiger Neue';
+  src: url('../assets/fonts/FrutigerNeueLTW1G-Bold.woff2') format('woff2'),
+       url('../assets/fonts/FrutigerNeueLTW1G-Bold.woff') format('woff'),
+       url('../assets/fonts/FrutigerNeueLTW1G-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "VogueAvantGarde";
+  src: url('../assets/fonts/vogue-avant-garde-black.otf') format('otf'),
+       url('../assets/fonts/vogue-avant-garde-bold.otf') format('otf'),
+       url('../assets/fonts/vogue-avant-garde-light.otf') format('otf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+  body {
+    font-family: "FrutigerNeue", "Cairo", "OpenSansNew", arial, sans-serif;
+  }
+
+
+.employee-details {
+   
+
+    margin: 0px auto;
+    padding: 0px 5px;
+    background-color: #ffffff;
+    padding: 5px 0px !important;   
+    overflow-x: hidden;
+    font-family: "FrutigerNeue", "Cairo", "OpenSansNew", arial, sans-serif;
+    font-size: 13px;
+  }
+  
+  .header-image {
+ 
+    background-image: url('../assets/images/headimage.png');
+    width: 100%;
+  
+  }
+   .t-center{
+    text-align: center;
+   }
+   .row{
+    padding: 0px 20px;
+   }
+  .plr0{
+    padding-left:0px;
+    padding-right:0px;
+  }
+  .employee-details h1 {
+ 
+    color: #333;
+    font-size: 1.5em;
+    font-family: "VogueAvantGarde", "FrutigerNeue", "Cairo", "OpenSansNew", arial, sans-serif;
+    font-weight: 700;
+  }
+  
+  .employee-details p {
+    margin: 10px 0;
+  }
+  .employee-details table th {
+    height: 16px;
+    background-color: #232531;
+    color: #fff !important;
+    font-size: 13px;
+    color: #444;
+    border-width: 0px 1px 1px 1px ;
+  }
+  p{
+    font-size: 1em;
+    font-family: "FrutigerNeue", "Cairo", "OpenSansNew", arial, sans-serif;
+    color: #232531;
+    font-weight: 400;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .buttons button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .buttons button:hover {
+    background-color: #0056b3;
+  }
+  .bg-grey{
+    background-color: #f9f9f9;
+   
+  }
+  .employee-details .btn-secondary {
+    border-width: 1px solid #232531 !important;
+    background-color: #ffffff!important;
+    color: #232531 !important;
+    border-radius: 0px !important;
+    font-weight: 600 !important;
+}
+.employee-details .btn-primary {
+  color: #ffffff;
+  background-color: #232531 !important;
+  border: 1px solid #232531 !important;
+  border-radius: 0px !important;
+}
+h1{
+  font-family: inherit;
+  font-size: 2rem;
+  font-family: "VogueAvantGarde", "FrutigerNeue", "Cairo", "OpenSansNew", arial, sans-serif;
+  font-weight: 700;
+}
+h2{
+  font-family: inherit;
+  font-size: 18px!important;
+  font-family: "VogueAvantGarde", "FrutigerNeue", "Cairo", "OpenSansNew", arial, sans-serif;
+
+}
+hr {
+  margin: .5rem 0rem;
+}
+.btn{
+  font-size: 13px!important;
+}
+td{
+  background-color: transparent!important;
+  border-width: 0px 1px 1px 1px !important;
+  border-color:#fff;
+  font-size: 13px;
+  color:#444;
+}
+.form-check-input:checked {
+  background-color: #232531!important;
+  border-color: #232531!important;
+}
+body input[type='radio'] {
+  height: 1.143em;
+    width: 1.143em;
+    background-color: #ffffff;   
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    padding: 0em 0em 0em 0em;
+    border-color: #b2b2b2 !important;
+    border: 1px solid #b2b2b2;
+    border-top: 1px solid #b2b2b2;
+    border-bottom: 1px solid #b2b2b2;
+    border-left: 1px solid #b2b2b2;
+    border-right: 1px solid #b2b2b2;
+    border-radius: 50%;
+    accent-color: #b2b2b2;
+}
+table,.employee-det-cont,Button{
+  font-family: "FrutigerNeue", "Cairo", "OpenSansNew", arial, sans-serif!important;
+  font-size: 14px;
+}
+.employee-det-cont {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.field {
+  margin-bottom: 10px; /* Adjust spacing between fields */
+  display:flex;
+}
+
+.field-name {
+
+  width:50%;
+  text-align: right;
+}
+.field-value{
+  width:50%;
+  font-weight: bold;
+  padding-left: 10px;
+
+}
+.text-right {
+  text-align: right;
+}
